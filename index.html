@@ -4,191 +4,251 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Sofía Sanagustín Cabrero — Graphic Designer</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <header>
-    <div class="wrap">
-      <h1>Sofía Sanagustín Cabrero</h1>
-      <p class="subtitle">Graphic Designer</p>
+  <div class="page">
+    <div class="layout">
 
-      <div class="contact">
-        <span><a href="mailto:sofiasanagustincabrero@gmail.com">sofiasanagustincabrero@gmail.com</a></span>
-        <span><a href="tel:+34644573953">+34 644 573 953</a></span>
-        <span>
-          <a href="https://www.linkedin.com/in/sof%C3%ADa-sanagust%C3%ADn-cabrero" target="_blank" rel="noreferrer">
-            LinkedIn
-          </a>
-        </span>
-        <span>
-          <a href="https://www.behance.net/sofias11" target="_blank" rel="noreferrer">
-            Behance
-          </a>
-        </span>
-      </div>
-    </div>
-  </header>
+      <!-- LEFT PANEL -->
+      <aside class="sidebar" aria-label="Sidebar">
+        <div class="sidebar-inner">
+          <div class="avatar-wrap">
+            <!-- Put your image in the same folder and name it profile.jpg -->
+            <img class="avatar" src="profile.jpg" alt="Portrait photo" />
+          </div>
 
-  <main class="wrap">
-    <section>
-      <h2>Education</h2>
+          <div class="contact">
+            <a class="contact-item" href="mailto:sofiasanagustincabrero@gmail.com">
+              <span class="icon" aria-hidden="true">
+                <!-- mail -->
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 6h16v12H4V6Z" stroke="currentColor" stroke-width="2" />
+                  <path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="2" />
+                </svg>
+              </span>
+              <span>sofiasanagustincabrero@gmail.com</span>
+            </a>
 
-      <div class="item">
-        <div class="item-head">
-          <div class="role">BA in Graphic Design — Escuela Superior de Diseño de Aragón (ESDA)</div>
-          <div class="meta">10/2020 – Present · Zaragoza, Spain</div>
+            <a class="contact-item" href="tel:+34644573953">
+              <span class="icon" aria-hidden="true">
+                <!-- phone -->
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M6 3h4l2 6-3 2c1 2 3 4 5 5l2-3 6 2v4c0 1-1 2-2 2C10 21 3 14 3 5c0-1 1-2 3-2Z"
+                        stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                </svg>
+              </span>
+              <span>+34 644 573 953</span>
+            </a>
+
+            <a class="contact-item" href="https://www.linkedin.com/in/sof%C3%ADa-sanagust%C3%ADn-cabrero" target="_blank" rel="noreferrer">
+              <span class="icon" aria-hidden="true">
+                <!-- linkedin -->
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 4h16v16H4V4Z" stroke="currentColor" stroke-width="2" />
+                  <path d="M8 11v7" stroke="currentColor" stroke-width="2" />
+                  <path d="M8 8.5h.01" stroke="currentColor" stroke-width="3" />
+                  <path d="M12 18v-4c0-1.1.9-2 2-2s2 .9 2 2v4" stroke="currentColor" stroke-width="2" />
+                </svg>
+              </span>
+              <span>LinkedIn</span>
+            </a>
+
+            <a class="contact-item" href="https://www.behance.net/sofias11" target="_blank" rel="noreferrer">
+              <span class="icon" aria-hidden="true">
+                <!-- behance-ish -->
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 6h7a3 3 0 0 1 0 6H4V6Z" stroke="currentColor" stroke-width="2" />
+                  <path d="M4 12h7a3 3 0 0 1 0 6H4v-6Z" stroke="currentColor" stroke-width="2" />
+                  <path d="M14 10h6" stroke="currentColor" stroke-width="2" />
+                  <path d="M14 14c0-2 1.5-3 3-3s3 1 3 3-1.5 3-3 3-3-1-3-3Z"
+                        stroke="currentColor" stroke-width="2" />
+                </svg>
+              </span>
+              <span>Behance</span>
+            </a>
+          </div>
+
+          <div class="side-section">
+            <h2 class="side-title">Languages</h2>
+            <div class="side-rule"></div>
+            <ul class="side-list">
+              <li>Spanish (Native)</li>
+              <li>English (C1, TOEFL 105/120)</li>
+              <li>French (Basic)</li>
+            </ul>
+          </div>
+
+          <div class="side-section">
+            <h2 class="side-title">Volunteering</h2>
+            <div class="side-rule"></div>
+
+            <div class="side-block">
+              <div class="side-block-title">Paralympics — Event Service</div>
+              <div class="side-block-meta">IOC · 2024 · Paris, France</div>
+              <ul class="side-list">
+                <li>Help manage queues</li>
+                <li>Provide venue/event information</li>
+                <li>Assist spectators (seating + support)</li>
+              </ul>
+            </div>
+
+            <div class="side-block">
+              <div class="side-block-title">Diseñafest Design Festival</div>
+              <div class="side-block-meta">ESDA · 2024 · Zaragoza, Spain</div>
+              <ul class="side-list">
+                <li>Risograph brochure for an exhibition</li>
+                <li>Helped create/install the exhibition</li>
+              </ul>
+            </div>
+
+            <div class="side-block">
+              <div class="side-block-title">Encuentrazos Design Festival</div>
+              <div class="side-block-meta">ESDA · 2022 · Zaragoza, Spain</div>
+              <ul class="side-list">
+                <li>Coffee break organization</li>
+                <li>Waitress at closing party</li>
+              </ul>
+            </div>
+
+            <div class="side-block">
+              <div class="side-block-title">Proyecta Design Festival</div>
+              <div class="side-block-meta">ESDA · 2021 · Zaragoza, Spain</div>
+              <ul class="side-list">
+                <li>Interior design & decoration support</li>
+                <li>Social media promotion</li>
+                <li>Exhibition graphics installation</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="side-section">
+            <h2 class="side-title">Courses</h2>
+            <div class="side-rule"></div>
+            <ul class="side-list">
+              <li>2024 — Japanese Xilography — ESDA</li>
+              <li>2024 — Botanical Textile Printing — ESDA</li>
+              <li>2024 — Creativity Workshop — ESDA</li>
+              <li>2022 — Hospitality & customer service — Damito S. L (Online)</li>
+            </ul>
+            <div class="side-note">Type B driving license.</div>
+          </div>
         </div>
-        <ul>
-          <li>Subjects ranging from Art Direction to Experimental Typography, including Photography, 3D Character Design and Art History.</li>
-          <li>Year Erasmus+ at LAB University, Finland (Jan 2023 – May 2023).</li>
-          <li>Class representative (2020–2021 academic year).</li>
-          <li>Volunteer at different school festivals.</li>
-        </ul>
-      </div>
+      </aside>
 
-      <div class="item">
-        <div class="item-head">
-          <div class="role">Erasmus+ Year Exchange — LAB University of Applied Sciences</div>
-          <div class="meta">01/2023 – 05/2023 · Lahti, Finland</div>
-        </div>
-        <div class="muted small">Subjects (in English):</div>
-        <ul>
-          <li>XR Augmented Reality: group work for a museum (web section design).</li>
-          <li>Exhibition Design: exhibition design for Maalva museum (graphic + interior design).</li>
-        </ul>
-      </div>
-    </section>
+      <!-- RIGHT CONTENT -->
+      <main class="content" aria-label="Main content">
+        <header class="top">
+          <h1 class="name">Sofía Sanagustín Cabrero</h1>
+          <div class="title">Graphic Designer</div>
+        </header>
 
-    <section>
-      <h2>Work Experience</h2>
+        <section class="section">
+          <div class="section-head">
+            <h2 class="section-title">Education</h2>
+            <div class="section-rule"></div>
+          </div>
 
-      <div class="item">
-        <div class="item-head">
-          <div class="role">Maalva Museum — LAB University, Finland</div>
-          <div class="meta">01/2023 – 05/2023</div>
-        </div>
-        <ul>
-          <li>Design and collaboration in the set-up and construction of the “LAB Institute of Design and Fine Arts Annual Spring Show 2023” exhibition.</li>
-          <li>Part of the architecture team (physical construction of the design).</li>
-        </ul>
-      </div>
+          <article class="entry">
+            <div class="entry-head">
+              <div class="entry-role">BA in Graphic Design</div>
+              <div class="entry-meta">10/2020 – Present</div>
+            </div>
+            <div class="entry-sub">Escuela Superior de Diseño de Aragón (ESDA) · Zaragoza, Spain</div>
+            <ul class="entry-list">
+              <li>Subjects ranging from Art Direction to Experimental Typography, including Photography, 3D Character Design and Art History.</li>
+              <li>Year Erasmus+ at LAB University, Finland (Jan 2023 – May 2023).</li>
+              <li>Class representative (2020–2021 academic year).</li>
+              <li>Volunteer at different school festivals.</li>
+            </ul>
+          </article>
 
-      <div class="item">
-        <div class="item-head">
-          <div class="role">Urajärven Kartanomuseum — LAB University, Finland</div>
-          <div class="meta">03/2023 – 05/2023</div>
-        </div>
-        <ul>
-          <li>Design and development of a section of the museum’s website (responsive design).</li>
-          <li>Scanning of objects for 3D modeling; preservation of real objects in a digital archive.</li>
-        </ul>
-      </div>
+          <article class="entry">
+            <div class="entry-head">
+              <div class="entry-role">Erasmus+ Year Exchange</div>
+              <div class="entry-meta">01/2023 – 05/2023</div>
+            </div>
+            <div class="entry-sub">LAB University of Applied Sciences · Lahti, Finland</div>
+            <div class="entry-small">Subjects (in English):</div>
+            <ul class="entry-list">
+              <li>XR Augmented Reality: group work for a museum (web section design).</li>
+              <li>Exhibition Design: exhibition design for Maalva museum (graphic + interior design).</li>
+            </ul>
+          </article>
+        </section>
 
-      <div class="item">
-        <div class="item-head">
-          <div class="role">F2F Street Fundraiser — Fundraisers We Are, Spain</div>
-          <div class="meta">10/2022 – 12/2022</div>
-        </div>
-        <ul>
-          <li>Fundraising for different NGOs; promoting commitment to the cause.</li>
-          <li>Persuasion in street environments; explaining mission and objectives.</li>
-          <li>Building positive relationships with potential donors; sharing project and program info.</li>
-          <li>Teamwork experience.</li>
-        </ul>
-      </div>
+        <section class="section">
+          <div class="section-head">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="section-rule"></div>
+          </div>
 
-      <div class="item">
-        <div class="item-head">
-          <div class="role">Paralympics — Event Service (IOC)</div>
-          <div class="meta">2024 · Paris, France</div>
-        </div>
-        <ul>
-          <li>Helped manage queues and provided event/venue information.</li>
-          <li>Assisted spectators with seating and general support.</li>
-          <li>Supported people needing help getting into the stadium.</li>
-        </ul>
-      </div>
-    </section>
+          <article class="entry">
+            <div class="entry-head">
+              <div class="entry-role">Maalva Museum</div>
+              <div class="entry-meta">01/2023 – 05/2023</div>
+            </div>
+            <div class="entry-sub">LAB University · Finland</div>
+            <ul class="entry-list">
+              <li>Design and collaboration in the set-up and construction of the “LAB Institute of Design and Fine Arts Annual Spring Show 2023” exhibition.</li>
+              <li>Part of the architecture team (physical construction of the design).</li>
+            </ul>
+          </article>
 
-    <section>
-      <h2>Volunteering</h2>
+          <article class="entry">
+            <div class="entry-head">
+              <div class="entry-role">Urajärven Kartanomuseum</div>
+              <div class="entry-meta">03/2023 – 05/2023</div>
+            </div>
+            <div class="entry-sub">LAB University · Finland</div>
+            <ul class="entry-list">
+              <li>Design and development of a section of the museum’s website (responsive design).</li>
+              <li>Scanning of objects for 3D modeling; preservation of real objects in a digital archive.</li>
+            </ul>
+          </article>
 
-      <div class="item">
-        <div class="item-head">
-          <div class="role">Diseñafest Design Festival — ESDA</div>
-          <div class="meta">2024 · Zaragoza, Spain</div>
-        </div>
-        <ul>
-          <li>Designed a risograph brochure for an exhibition within the school.</li>
-          <li>Helped with the creation and installation of the exhibition.</li>
-        </ul>
-      </div>
+          <article class="entry">
+            <div class="entry-head">
+              <div class="entry-role">F2F Street Fundraiser</div>
+              <div class="entry-meta">10/2022 – 12/2022</div>
+            </div>
+            <div class="entry-sub">Fundraisers We Are · Spain</div>
+            <ul class="entry-list">
+              <li>Fundraising for different NGOs; promoting commitment to the cause.</li>
+              <li>Persuasion in street environments; explaining the mission and objectives.</li>
+              <li>Building positive relationships with potential donors; sharing program info.</li>
+              <li>Experience in teamwork.</li>
+            </ul>
+          </article>
+        </section>
 
-      <div class="item">
-        <div class="item-head">
-          <div class="role">Encuentrazos Design Festival — ESDA</div>
-          <div class="meta">2022 · Zaragoza, Spain</div>
-        </div>
-        <ul>
-          <li>Organization of the coffee break.</li>
-          <li>Waitress at the festival closing party.</li>
-        </ul>
-      </div>
+        <section class="section">
+          <div class="section-head">
+            <h2 class="section-title">IT Skills</h2>
+            <div class="section-rule"></div>
+          </div>
 
-      <div class="item">
-        <div class="item-head">
-          <div class="role">Proyecta Design Festival — ESDA</div>
-          <div class="meta">2021 · Zaragoza, Spain</div>
-        </div>
-        <ul>
-          <li>Interior design (rearrangement of furniture, decoration, etc.).</li>
-          <li>Promotion via social media of talks and workshops.</li>
-          <li>Creation and installation of part of the exhibition graphic designs.</li>
-        </ul>
-      </div>
-    </section>
+          <!-- simple “icon” badges (no brand logos) -->
+          <div class="badge-row" aria-label="Software badges">
+            <span class="badge">Id</span>
+            <span class="badge">Ps</span>
+            <span class="badge">Ai</span>
+            <span class="badge">LrC</span>
+            <span class="badge">Pr</span>
+            <span class="badge">Ae</span>
+            <span class="badge">An</span>
+            <span class="badge">3D</span>
+            <span class="badge">Blender</span>
+          </div>
 
-    <section>
-      <h2>Courses</h2>
-      <div class="item">
-        <ul>
-          <li>2024 — Japanese Xilography — ESDA</li>
-          <li>2024 — Botanical Textile Printing — ESDA</li>
-          <li>2024 — Creativity Workshop — ESDA</li>
-          <li>2022 — Hospitality and customer service — Damito S. L (Online)</li>
-        </ul>
-      </div>
-      <div class="muted small">Type B driving license.</div>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-
-      <div class="grid">
-        <div class="small-card">
-          <h3>Languages</h3>
-          <ul>
-            <li>Spanish — Native</li>
-            <li>English — C1 (TOEFL 105/120)</li>
-            <li>French — Basic</li>
-          </ul>
-        </div>
-
-        <div class="small-card">
-          <h3>IT Skills</h3>
           <p class="muted">
-            (Not specified in the CV text — add your software/tools here, e.g., Adobe CC, Figma, Blender, etc.)
+            (If you tell me your exact tools, I’ll replace these badges to match your real list.)
           </p>
-        </div>
-      </div>
-    </section>
-  </main>
+        </section>
+      </main>
 
-  <footer>
-    <div class="wrap">
-      <div>Last updated: from CV content.</div>
     </div>
-  </footer>
+  </div>
 </body>
 </html>
